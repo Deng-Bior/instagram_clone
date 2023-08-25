@@ -1,0 +1,165 @@
+#ig_logo{
+    font-family: Lobster;
+    font-weight: 100;
+    
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+#navigation_bar{
+    height: 100vh;
+    flex: 0.2;
+    border-right: 2px solid rgb(185, 176, 176);
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+
+#main_page{
+    width: 100%;
+    flex: 0.8;
+    display: flex;
+    overflow-y: auto;
+    height: 100%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li:hover{
+    background-color: #979797;
+}
+
+li{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    padding-left: 0;
+    border-radius: 10px;
+    align-items: centre;
+    font-size: 20px;
+}
+
+#Profile_pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#more{
+    position: absolute;
+    bottom: 0;
+}
+
+.posts{
+    flex: 0.8;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.post{
+    width: 750px;
+}
+
+.post_profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+}
+
+.post_head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    gap: 10px;
+}
+
+.icon_button{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.icon_button:hover{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.post_img{
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.post_img img{
+    height: 950px;
+    width: 100%;
+}
+
+.post_reaction{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.post_reaction button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 30px;
+    border-radius: 50%;
+
+}
+
+.post_reaction button:hover{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.post_comments{
+    padding: 25px;
+    padding-top: 0px;
+}
+
+#likes{
+    font-weight: bold;
+}
+
+.text_secondary{
+    color: lightgray;
+}
+
+.user_div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sg_btn{
+    background-color: none;
+    border: none;
+    color: dodgerblue;
+    font-size: 15px;
+}
+
+.sg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sugesstions{
+    position: sticky;
+    top: 10px;
+}
